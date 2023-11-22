@@ -104,19 +104,22 @@
         android:hint="fecha de nacimiento"
         android:layout_marginHorizontal="10dp"
         android:layout_marginVertical="20dp"
-        android:enabled="true">
+        android:enabled="true"
+        android:focusable="false">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="serif"
             android:textSize="16sp"
-            android:id="@+id/textinputedittextfec"/>
+            android:focusable="false"
+            android:id="@+id/textinputedittextfec"
+            android:inputType="date"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Insertar"
